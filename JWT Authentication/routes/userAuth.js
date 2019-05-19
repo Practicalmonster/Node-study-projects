@@ -4,7 +4,7 @@ const cookieParser = require('cookie-parser')
 const userSchema = require('../schemas/userSchema')
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://PracticalDemon:LE82IZZqGTESI4UG@fetareey-gp9mf.mongodb.net/Pharma?retryWrites=true",{useNewUrlParser: true}).catch((e)=>console.log(e))
+mongoose.connect("mongodb+srv://PracticalDemon:youSneekykidNoPasswprdForYou@fetareey-gp9mf.mongodb.net/Pharma?retryWrites=true",{useNewUrlParser: true}).catch((e)=>console.log(e))
 mongoose.set('useCreateIndex', true);
 
 const userModel = mongoose.model('user', userSchema)
