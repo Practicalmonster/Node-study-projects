@@ -43,6 +43,3 @@ app.use('/',(req,res,next)=>{
 app.listen(PORT, ()=>{
     console.log(`the app is listening on port ${PORT}`)
 })
-function escapeRegex(text) {
-    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
-};
