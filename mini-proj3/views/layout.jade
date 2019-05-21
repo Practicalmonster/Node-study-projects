@@ -1,0 +1,57 @@
+doctype html
+
+head
+  link(href='assets/css/bootstrap.css', rel='stylesheet')
+  link(href='assets/css/bootstrap-responsive.css', rel='stylesheet')
+  link(href='assets/css/docs.css', rel='stylesheet')
+  link(href='assets/css/prettyPhoto.css', rel='stylesheet')
+  link(href='assets/js/google-code-prettify/prettify.css', rel='stylesheet')
+  link(href='assets/css/flexslider.css', rel='stylesheet')
+  link(href='assets/css/refineslide.css', rel='stylesheet')
+  link(href='assets/css/font-awesome.css', rel='stylesheet')
+  link(href='assets/css/animate.css', rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700', rel='stylesheet')
+  link(href='assets/css/style.css', rel='stylesheet')
+  link(href='assets/color/default.css', rel='stylesheet')
+header(style='margin-bottom:100px')
+  .cbp-af-header
+    .cbp-af-inner
+      .container
+        .row
+          .span4
+            // logo
+            .logo
+              h1
+                a(href='index.html') Plato
+          .span8
+            .navbar
+              .navbar-inner
+                nav
+                  ul.nav.topnav
+                    li.dropdown.active
+                      a(href='index.html') Home
+                    li.dropdown
+                      a(href='#') Features
+                      ul.dropdown-menu
+                        li
+                          a(href='scaffolding.html') Scaffolding
+                        li
+                          a(href='base-css.html') Base CSS
+                        li
+                          a(href='components.html') Components
+                        li
+                          a(href='icons.html') Icons
+                        li
+                          a(href='list.html') Styled lists
+                        li.dropdown
+                          a(href='#') 3rd level
+                          ul.dropdown-menu.sub-menu
+                            li
+                              a(href='#') Example menu
+                            li
+                              a(href='#') Example menu
+                            li
+                              a(href='#') Example menu
+body
+  block content
+
